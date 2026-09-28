@@ -1,0 +1,38 @@
+[
+  {
+    "year": 2026,
+    "month": 9,
+    "title": "School Visit Questionnaire - September 2026",
+    "questions": [
+      {
+        "id": "schoolOpen",
+        "text": "Is the school open today?",
+        "type": "yesNo",
+        "required": true,
+        "options": ["Yes", "No"]
+      },
+      {
+        "id": "teacherCount",
+        "text": "How many teachers are present?",
+        "type": "number",
+        "required": true,
+        "min": 0,
+        "max": 100
+      },
+      {
+        "id": "attendanceStatus",
+        "text": "What is the attendance status?",
+        "type": "singleChoice",
+        "required": true,
+        "options": ["Good", "Average", "Low"]
+      },
+      {
+        "id": "notes",
+        "text": "Additional notes",
+        "type": "text",
+        "required": false,
+        "placeholder": "Optional observations"
+      }
+    ]
+  }
+]

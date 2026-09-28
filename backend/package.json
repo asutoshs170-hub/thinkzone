@@ -1,0 +1,21 @@
+{
+  "name": "school-visit-backend",
+  "version": "1.0.0",
+  "description": "School Visit Logging backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "school",
+    "visit",
+    "mongo",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

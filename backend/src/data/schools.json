@@ -1,0 +1,50 @@
+[
+  {
+    "udiseCode": "21010100101",
+    "schoolName": "Govt Primary School A",
+    "districtCode": "2101",
+    "districtName": "Khordha",
+    "blockCode": "210101",
+    "blockName": "Bhubaneswar",
+    "clusterCode": "21010101",
+    "clusterName": "Cluster A",
+    "villageName": "Village A",
+    "category": "Primary"
+  },
+  {
+    "udiseCode": "21010100102",
+    "schoolName": "Govt Primary School B",
+    "districtCode": "2101",
+    "districtName": "Khordha",
+    "blockCode": "210101",
+    "blockName": "Bhubaneswar",
+    "clusterCode": "21010101",
+    "clusterName": "Cluster A",
+    "villageName": "Village B",
+    "category": "Primary"
+  },
+  {
+    "udiseCode": "21010200101",
+    "schoolName": "Govt Upper Primary School C",
+    "districtCode": "2101",
+    "districtName": "Khordha",
+    "blockCode": "210102",
+    "blockName": "Cuttack",
+    "clusterCode": "21010201",
+    "clusterName": "Cluster C",
+    "villageName": "Village C",
+    "category": "Upper Primary"
+  },
+  {
+    "udiseCode": "21010300101",
+    "schoolName": "Govt High School D",
+    "districtCode": "2102",
+    "districtName": "Puri",
+    "blockCode": "210103",
+    "blockName": "Puri",
+    "clusterCode": "21010301",
+    "clusterName": "Cluster D",
+    "villageName": "Village D",
+    "category": "High School"
+  }
+]
