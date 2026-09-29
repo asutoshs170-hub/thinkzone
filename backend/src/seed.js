@@ -1,5 +1,7 @@
 "use strict";
 
+require("dotenv").config();
+
 const mongoose = require("mongoose");
 const School = require("./models/School");
 const User = require("./models/User");
@@ -8,9 +10,11 @@ const schools = require("./data/schools.json");
 const questionnaires = require("./data/questionnaires.json");
 
 async function seed() {
-  const mongoUri =
-    process.env.MONGO_URI ||
-    "mongodb+srv://asutoshs170_db_user:0b1g0khU0wc7uakR@cluster0.txsw7fq.mongodb.net/school-visit-logging?retryWrites=true&w=majority&appName=Cluster0";
+  const mongoUri = process.env.MONGO_URI;
+
+  if (!mongoUri) {
+    throw new Error("MONGO_URI is not configured");
+  }
   await mongoose.connect(mongoUri);
 
   await School.deleteMany({});

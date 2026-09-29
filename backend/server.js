@@ -1,5 +1,7 @@
 "use strict";
 
+require("dotenv").config();
+
 const app = require("./app");
 const { connectDB } = require("./src/config/db");
 
@@ -9,7 +11,6 @@ async function startServer() {
   await connectDB();
   app.listen(PORT, "0.0.0.0", () => {
     console.log(`Server running on http://0.0.0.0:${PORT}`);
-    console.log(`Local network: http://10.173.244.217:${PORT}`);
   });
 }
 

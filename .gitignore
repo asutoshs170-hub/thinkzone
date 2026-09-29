@@ -1,6 +1,7 @@
 node_modules/
 mongodb-data/
 .env
+!.env.example
 .expo/
 dist/
 build/
